@@ -1,5 +1,43 @@
 # MarkovChains
+
+[![](https://jitpack.io/v/redParrot17/MarkovChains.svg)](https://jitpack.io/#redParrot17/MarkovChains)
+[![](https://img.shields.io/badge/JavaDoc-Latest-yellow.svg)](https://redparrot17.github.io/MarkovChains/)
+[![](https://img.shields.io/badge/License-Apache%202.0-lightgrey.svg)](https://github.com/redParrot17/MarkovChains/blob/master/LICENSE)
+
 Text prediction in Java using a Markov Chain.
+
+### Download
+Replace `RELEASE` with the release you wish to use. The latest release is listed above.
+#### Gradle
+```gradle
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+```gradle
+dependencies {
+        implementation 'com.github.redParrot17:MarkovChains:RELEASE'
+}
+```
+
+#### Maven
+```xml
+<repository>
+    <id>jitpack.io</id>
+    <url>https://jitpack.io</url>
+</repository>
+```
+```xml
+<dependency>
+    <groupId>com.github.redParrot17</groupId>
+    <artifactId>MarkovChains</artifactId>
+    <version>RELEASE</version>
+</dependency>
+```
+
 
 ### License
 
